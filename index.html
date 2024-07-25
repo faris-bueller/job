@@ -4,55 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Scholars</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Green Scholars</h1>
-            <p>Combining Lawn Care and Scholarship Mentorship</p>
-        </div>
+        <h1>Green Scholars</h1>
+        <p>Combining Lawn Care and Scholarship Mentorship</p>
     </header>
     <nav>
-        <div class="container">
-            <a href="index.html">Home</a>
-            <a href="lawn-care.html">Lawn Care Services</a>
-            <a href="snow-shoveling.html">Snow Shoveling</a>
-            <a href="#contact">Contact</a>
-        </div>
+        <a href="index.html">Home</a>
+        <a href="lawn-care.html">Lawn Care Services</a>
+        <a href="snow-shoveling.html">Snow Shoveling</a>
+        <a href="#contact">Contact</a>
     </nav>
-    <main>
-        <div class="container">
-            <section class="intro">
-                <h2>Welcome to Green Scholars</h2>
-                <p>At Green Scholars, we are dedicated to providing exceptional lawn care and snow shoveling services while supporting college-bound students. Our services are designed to meet your needs and help students achieve their educational goals.</p>
-                <img src="images/lawn-care.jpg" alt="Lawn Care Service" class="hero-image">
-            </section>
-            <section id="services" class="service-overview">
-                <h2>Our Services</h2>
-                <div class="service-item">
-                    <h3>Lawn Care Services</h3>
-                    <p>We offer reliable and affordable lawn care services, including mowing, trimming, and seasonal clean-up. Our team of college students provides top-notch service while earning money for their education.</p>
-                    <a href="lawn-care.html" class="btn">Learn More</a>
-                </div>
-                <div class="service-item">
-                    <h3>Snow Shoveling</h3>
-                    <p>During winter, we provide prompt and efficient snow shoveling services to keep your driveways and sidewalks clear. Our team is prepared to handle all snow-related challenges.</p>
-                    <a href="snow-shoveling.html" class="btn">Learn More</a>
-                </div>
-            </section>
-            <section id="contact" class="contact-info">
-                <h2>Contact Us</h2>
-                <p>If you have any questions or would like to hire our services, please reach out to us:</p>
-                <p>Email: <a href="mailto:info@greenscholars.com">info@greenscholars.com</a></p>
-                <p>Phone: (123) 456-7890</p>
-            </section>
+    <div class="container">
+        <div class="section" id="services">
+            <h2>Lawn Care Services</h2>
+            <p>We offer reliable and affordable lawn care services, including mowing, trimming, and seasonal clean-up. Our team of college students provides top-notch service while earning money for their education.</p>
+            <a href="lawn-care.html">Learn More About Lawn Care</a>
+            <a href="snow-shoveling.html">Learn More About Snow Shoveling</a>
         </div>
-    </main>
+        <div class="section" id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to hire our services, please reach out to us:</p>
+            <p>Email: info@greenscholars.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </div>
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Green Scholars. All rights reserved.</p>
-        </div>
+        <p>&copy; 2024 Green Scholars. All rights reserved.</p>
     </footer>
 </body>
 </html>
