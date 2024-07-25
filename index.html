@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Scholars</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        .parallax {
+            background-image: url('lawn-mower.jpg'); /* Ensure the image is in the same folder */
+            height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1 data-aos="fade-up">Green Scholars</h1>
-            <p data-aos="fade-up" data-aos-delay="200">Transforming Yards, Supporting Dreams</p>
+            <h1>Green Scholars</h1>
+            <p>Transforming Yards, Supporting Dreams</p>
         </div>
     </header>
     <nav>
@@ -24,15 +32,15 @@
     </nav>
     <main>
         <div class="parallax"></div>
-        <section data-aos="fade-up" data-aos-delay="400">
+        <section>
             <h2>Welcome to Green Scholars</h2>
             <p>At Green Scholars, we support college-bound students while providing top-notch lawn care and snow shoveling services.</p>
         </section>
-        <section class="fade-in" data-aos="fade-up" data-aos-delay="600">
+        <section>
             <h2>Our Services</h2>
             <p>Learn more about our services...</p>
         </section>
-        <section id="contact" data-aos="fade-up" data-aos-delay="800">
+        <section id="contact">
             <h2>Contact Us</h2>
             <p>Email: <a href="mailto:info@greenscholars.com">info@greenscholars.com</a></p>
             <p>Phone: (123) 456-7890</p>
@@ -43,9 +51,5 @@
             <p>&copy; 2024 Green Scholars. All rights reserved.</p>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 </body>
 </html>
