@@ -1,5 +1,5 @@
 /* Basic reset */
-body, h1, h2, p, ul {
+body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -63,26 +63,80 @@ main {
     margin: 0 auto;
 }
 
-.service-overview, .contact-info {
+.intro {
+    text-align: center;
     margin-bottom: 40px;
 }
 
-.service-overview h2, .contact-info h2 {
+.intro h2 {
     color: #4CAF50;
     margin-bottom: 20px;
 }
 
-.service-links .btn {
+.intro p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Service overview styles */
+.service-overview {
+    margin-bottom: 40px;
+}
+
+.service-overview h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service-item h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    margin-bottom: 20px;
+}
+
+.service-item .btn {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin-right: 10px;
 }
 
-.service-links .btn:hover {
+.service-item .btn:hover {
     background-color: #45a049;
+}
+
+/* Contact info styles */
+.contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-info h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.1em;
 }
 
 /* Footer styles */
