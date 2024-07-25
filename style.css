@@ -58,7 +58,7 @@ nav a:hover {
 
 /* Parallax effect */
 .parallax {
-    background-image: url(lawn-mower.jpg); /* Replace with your lawn mower image */
+    background-image: url('lawn-mower.jpg'); /* Replace with your lawn mower image */
     height: 500px; /* Adjust height as needed */
     background-attachment: fixed;
     background-position: center;
